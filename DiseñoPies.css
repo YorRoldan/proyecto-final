@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: radial-gradient(circle at 9.89% 16.35%, #f2efbc 0, #ebf1be 5.56%, #e3f3c1 11.11%, #dcf5c5 16.67%, #d4f6ca 22.22%, #cdf8cf 27.78%, #c6f9d5 33.33%, #bffadb 38.89%, #b9fbe1 44.44%, #b3fbe8 50%, #aefbef 55.56%, #abfbf6 61.11%, #a8fbfc 66.67%, #a7fbff 72.22%, #a7faff 77.78%, #a9f9ff 83.33%, #acf8ff 88.89%, #b1f7ff 94.44%, #b7f5ff 100%);
+}
+
+/*Nav manos*/
+
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;/*Esto es para que el nav se centre en la página*/
+}
+
+.navegacion ul{
+    list-style: none;/*Esto quita los puntos de la lista*/
+}
+
+.menu > li{
+    position: relative; /* Esto es para definir la posicion del nav, si queremos que este firme o no*/
+    display: inline-block;/* est para poner uno al lado del otro las opciones*/
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+
+.menu > li > a{
+    display: block;
+    padding: 50px 20px;
+    color: rgb(39, 124, 116);
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.menu li a:hover:not(.active){
+    background-color: rgb(105, 245, 231);
+    padding: 10px 20PX ;
+    border-radius: 10px;
+} 
+.active {
+    background-color: rgb(105, 245, 231);
+    transition: all .05s;
+}
+
+.menu li img{
+    width: 50px;
+    height: auto;
+}
+
+.logo{
+    width: 200px;
+    margin: 10px;
+    border-radius: 30px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.welcome {
+    font-family: 'Comfortaa', cursive;
+    text-align-last: center;
+    font-size: 20px;
+    color: rgb(39, 124, 116);
+}
+
+.section-1{
+    column-count: 2 ;
+    margin: 20px;
+}
+
+.img-tr{
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.img-tr:hover{
+    transform: scale(1.1);
+}
+
+.tr-text-1{
+    margin-left: 50px;
+    align-content: center;
+}
+
+.tr-text-2{
+    margin-left: 50px;
+    align-content: center;
+    
+}
+
+
+.section-1 h3{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(39, 124, 116);
+}
+
+.section-1 p{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(39, 124, 116);
+}
+
+.section-1 li{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(39, 124, 116);
+}
+
+.col-lg-2{
+    margin-left: 50px;
+}
+
+.quiropedia{
+    column-count: 2 ;
+    margin: 20px;
+}
+
+.quiropedia h2{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(39, 124, 116);
+} 
+
+.quiropedia h4{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(39, 124, 116);
+} 
+
+.quiropedia p{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(39, 124, 116); 
+    text-align: justify;
+}
+
+.quiropedia li{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(39, 124, 116);
+    margin-left: 20px;
+}
+
+.redes{
+    column-count: 2 ;
+    text-align: center;
+    padding: 0;
+  }
+
+.redes li{
+      display: inline-block;
+      font-size: 10px;
+      margin: 10px;
+      margin-top: 20px;
+  }
+
+.redes img{
+    width: 80px;
+    height: auto;
+}
+
+.redes p{
+    font-family: 'Comfortaa', cursive;
+    color: rgb(126, 79, 126);
+    font-size: 15px;
+}
+
+.pie{
+    margin-bottom: 0px;
+    background: #f2efbc 0;
+}
+
+.pie span{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    color: rgb(126, 79, 126);
+    margin-left: 50px;
+    margin-top: 30px;
+}
+h4{
+    margin-top: 40px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    color: rgb(126, 79, 126);
+}
+
+.pie h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: rgb(39, 124, 116);
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
